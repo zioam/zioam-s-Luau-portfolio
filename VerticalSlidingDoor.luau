@@ -1,3 +1,11 @@
+--zm
+
+--[[
+Expected behaviour:
+This is a vertically sliding door, make a Part in Workspace and place a Server Script inside it, paste this code and you will have a cool modern sliding door.
+Hold E to open/close, and it will automatically close after a period of time.
+]] 
+
 local TweenService = game:GetService("TweenService")
 
 local door = script.Parent
